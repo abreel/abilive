@@ -1,23 +1,9 @@
-"use client"
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import { sortPosts, allCoreContent } from 'pliny/utils/contentlayer'
+import { allBlogs } from 'contentlayer/generated'
+import Main from './Main'
 
-const Home: React.FC = () => {
-  return (
-    <div>
-      <Header />
-      <main className="container mx-auto p-4">
-        <section className="text-center">
-          <h1 className="text-4xl font-bold">Welcome to My Portfolio</h1>
-          <p className="mt-4">
-            I am a UI/UX Designer and Software Developer. Here are some of my
-            works.
-          </p>
-        </section>
-      </main>
-      <Footer />
-    </div>
-  );
-};
-
-export default Home;
+export default async function Page() {
+  const sortedPosts = sortPosts(allBlogs)
+  const posts = allCoreContent(sortedPosts)
+  return <Main posts={posts} />
+}
