@@ -13,8 +13,8 @@ Explore my projects and see how I blend cutting-edge technologies with captivati
 
 - Hit me up: 
 | [abiodunsan190@gmail.com](mailto:abiodunsan190@gmail.com)
-| [LinkedIn](https://www.linkedin.com/in/your_profile)
-| [Facebook](https://www.facebook.com/your_profile)
+| [LinkedIn](http://www.linkedin.com/in/abiodun-sanni/)
+| [Facebook](https://facebook.com/abiodunsannilive)
 |
 
 - Schedule a meeting: 
@@ -22,8 +22,8 @@ Explore my projects and see how I blend cutting-edge technologies with captivati
 |
 
 - Ready to get started: 
-| [Upwork](https://abilive.vercel.app)
-| [Fiverr](https://abilive.vercel.app)
+| [Upwork](https://www.upwork.com/freelancers/~015d931e3ac4bed82a)
+| [Fiverr](https://fiverr.com/abiodunsan)
 |
 
 ---
