@@ -1,6 +1,6 @@
 {
-  "name": "my-dev-portfolio",
-  "version": "0.1.0",
+  "name": "tailwind-nextjs-starter-blog",
+  "version": "2.2.0",
   "private": true,
   "scripts": {
     "start": "next dev",
@@ -68,5 +68,6 @@
     "*.+(js|jsx|ts|tsx|json|css|md|mdx)": [
       "prettier --write"
     ]
-  }
+  },
+  "packageManager": "yarn@3.6.1"
 }
