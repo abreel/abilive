@@ -1,5 +1,4 @@
 # Explore Innovative Solutions with Me!
-[My portfolio URL](https://abilive.vercel.app)
 
 Welcome to my portfolio, where creativity meets innovation! I'm passionate about crafting seamless digital experiences using Next.js and TailwindCSS. Explore my projects and see how I blend cutting-edge technologies with captivating design.
 
