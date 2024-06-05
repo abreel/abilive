@@ -7,14 +7,24 @@ I'm passionate about crafting seamless digital experiences using Next.js and Tai
 Explore my projects and see how I blend cutting-edge technologies with captivating design.
 
 ## Let's Connect!
-- Need to see samples: [My portfolio](https://abilive.vercel.app)
-- Hit me up: [abiodunsan190@gmail.com](mailto:abiodunsan190@gmail.com)
+- Need to see samples: 
+| [My portfolio](https://abilive.vercel.app)
+|
+
+- Hit me up: 
+| [abiodunsan190@gmail.com](mailto:abiodunsan190@gmail.com)
 | [LinkedIn](https://www.linkedin.com/in/your_profile)
 | [Facebook](https://www.facebook.com/your_profile)
-- Schedule a meeting: [Calendarly](https://calendar.example.com)
+|
+
+- Schedule a meeting: 
+| [Calendly](https://calendly.com/abiodunsanni)
+|
+
 - Ready to get started: 
 | [Upwork](https://abilive.vercel.app)
 | [Fiverr](https://abilive.vercel.app)
+|
 
 ---
 
