@@ -44,6 +44,7 @@ Explore my projects and see how I blend cutting-edge technologies with captivati
 - Laravel
 - React.js
 - Vue.js
+- Bootstrap 
 
 
 #### Design
