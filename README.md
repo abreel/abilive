@@ -7,7 +7,7 @@ I'm passionate about crafting seamless digital experiences using Next.js and Tai
 Explore my projects and see how I blend cutting-edge technologies with captivating design.
 
 ## Let's Connect!
-- Email: [abiodunsan190@gmail.com](mailto:your_email@example.com)
+- Email: [abiodunsan190@gmail.com](mailto:abiodunsan190@gmail.com)
 - LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/your_profile)
 - Facebook: [Your Facebook Profile](https://www.facebook.com/your_profile)
 - Calendar: [Your Calendar URL](https://calendar.example.com)
@@ -16,14 +16,28 @@ Explore my projects and see how I blend cutting-edge technologies with captivati
 ---
 
 ## Skills
-- Next.js
-- TailwindCSS
-- React.js
-- UI/UX Design
+### Programming
 - JavaScript
 - HTML/CSS
-- Figma
+- Dart
+- PHP
+- Python
+
+
+### Frameworks
+- Next.js
+- TailwindCSS
 - Flutter
+- React.js
+
+
+### Design
+- UI/UX Design
+- Figma
+- Corel Draw
+
+
+### CMS
 - WordPress
 
 ---
