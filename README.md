@@ -9,11 +9,12 @@ Explore my projects and see how I blend cutting-edge technologies with captivati
 ## Let's Connect!
 - Need to see samples: [My portfolio](https://abilive.vercel.app)
 - Hit me up: [abiodunsan190@gmail.com](mailto:abiodunsan190@gmail.com)
-[LinkedIn](https://www.linkedin.com/in/your_profile)
-[Facebook](https://www.facebook.com/your_profile)
+| [LinkedIn](https://www.linkedin.com/in/your_profile)
+| [Facebook](https://www.facebook.com/your_profile)
 - Schedule a meeting: [Calendarly](https://calendar.example.com)
-- Ready to get started: [Upwork](https://abilive.vercel.app)
-[Fiverr](https://abilive.vercel.app)
+- Ready to get started: 
+| [Upwork](https://abilive.vercel.app)
+| [Fiverr](https://abilive.vercel.app)
 
 ---
 
