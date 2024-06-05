@@ -12,7 +12,7 @@ const projectsData: Project[] = [
     and more. Google has many features to help you find exactly what you're looking
     for.`,
     imgSrc: '/static/images/google.png',
-    href: '#',
+    href: 'https://www.google.com',
   },
   {
     title: 'The Time Machine',
