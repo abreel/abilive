@@ -62,7 +62,21 @@ Explore my projects and see how I blend cutting-edge technologies with captivati
 Ready to collaborate? Let's bring your ideas to life! Reach out to me today, and let's create something extraordinary together. 
 
 ## Let's Connect!
-- Email: [abiodunsan190@gmail.com](mailto:your_email@example.com)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/your_profile)
-- Facebook: [Your Facebook Profile](https://www.facebook.com/your_profile)
-- Calendar: [Your Calendar URL](https://calendar.example.com)
+- Need to see samples: 
+| [My portfolio](https://abilive.vercel.app)
+|
+
+- Hit me up: 
+| [abiodunsan190@gmail.com](mailto:abiodunsan190@gmail.com)
+| [LinkedIn](http://www.linkedin.com/in/abiodun-sanni/)
+| [Facebook](https://facebook.com/abiodunsannilive)
+|
+
+- Schedule a meeting: 
+| [Calendly](https://calendly.com/abiodunsanni)
+|
+
+- Ready to get started: 
+| [Upwork](https://www.upwork.com/freelancers/~015d931e3ac4bed82a)
+| [Fiverr](https://fiverr.com/abiodunsan)
+|
