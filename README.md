@@ -16,7 +16,7 @@ Explore my projects and see how I blend cutting-edge technologies with captivati
 ---
 
 ## Skills
-### Programming
+#### Programming
 - JavaScript
 - HTML/CSS
 - Dart
@@ -24,20 +24,21 @@ Explore my projects and see how I blend cutting-edge technologies with captivati
 - Python
 
 
-### Frameworks
+#### Frameworks
 - Next.js
 - TailwindCSS
 - Flutter
 - React.js
 
 
-### Design
+#### Design
 - UI/UX Design
+- Graphics 
 - Figma
 - Corel Draw
 
 
-### CMS
+#### CMS
 - WordPress
 
 ---
