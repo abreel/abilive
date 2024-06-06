@@ -3,6 +3,8 @@
 import { useState } from 'react'
 import Link from './Link'
 import headerNavLinks from '@/data/headerNavLinks'
+import ThemeSwitch from './ThemeSwitch'
+import SearchButton from './SearchButton'
 
 const MobileNav = () => {
   const [navShow, setNavShow] = useState(false)
@@ -57,6 +59,10 @@ const MobileNav = () => {
           </button>
         </div>
         <nav className="fixed mt-8 h-full">
+          <div className="flex justify-end space-x-2 px-12 py-4">
+            <SearchButton />
+            <ThemeSwitch />
+          </div>
           {headerNavLinks.map((link) => (
             <div key={link.title} className="px-12 py-4">
               <Link
