@@ -59,6 +59,10 @@ const MobileNav = () => {
           </button>
         </div>
         <nav className="fixed mt-8 h-full">
+          <div className="flex justify-end px-12 py-4 space-x-2">
+            <SearchButton />
+            <ThemeSwitch />
+          </div>
           {headerNavLinks.map((link) => (
             <div key={link.title} className="px-12 py-4">
               <Link
@@ -70,12 +74,6 @@ const MobileNav = () => {
               </Link>
             </div>
           ))}
-          <div className="flex justify-around px-12 py-4">
-            <SearchButton />
-            <ThemeSwitch />
-          </div>
-          {/* <div className="px-12 py-4">
-          </div> */}
         </nav>
       </div>
     </>
