@@ -59,7 +59,7 @@ const MobileNav = () => {
           </button>
         </div>
         <nav className="fixed mt-8 h-full">
-          <div className="flex justify-end px-12 py-4 space-x-2">
+          <div className="flex justify-end space-x-2 px-12 py-4">
             <SearchButton />
             <ThemeSwitch />
           </div>
