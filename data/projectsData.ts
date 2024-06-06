@@ -7,20 +7,22 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: '2 testers',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'AI-Powered Text Editor with Advanced Image and Conversation Integration',
+    description: `A Figma prototype of an innovative text editor that integrates AI for text generation, image search and creation, and conversational interaction, streamlining content creation and enhancing user engagement.`,
+    imgSrc: 'https://cdn.loom.com/sessions/thumbnails/6e7d7af9e72c45c39a13fe4110bfe801-with-play.gif',
+    href: '/blog/ai-text-editor',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'AI-Powered Text Editor with Advanced Image and Conversation Integration',
+    description: `A Figma prototype of an innovative text editor that integrates AI for text generation, image search and creation, and conversational interaction, streamlining content creation and enhancing user engagement.`,
+    imgSrc: 'https://cdn.loom.com/sessions/thumbnails/6e7d7af9e72c45c39a13fe4110bfe801-with-play.gif',
+    href: '/blog/ai-text-editor',
+  },
+  {
+    title: 'AI-Powered Text Editor with Advanced Image and Conversation Integration',
+    description: `A Figma prototype of an innovative text editor that integrates AI for text generation, image search and creation, and conversational interaction, streamlining content creation and enhancing user engagement.`,
+    imgSrc: 'https://cdn.loom.com/sessions/thumbnails/6e7d7af9e72c45c39a13fe4110bfe801-with-play.gif',
+    href: '/blog/ai-text-editor',
   },
 ]
 
