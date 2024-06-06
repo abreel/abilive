@@ -8,17 +8,15 @@ import SearchButton from './SearchButton'
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between py-10">
+    <header className="sticky flex items-center justify-between py-10">
       <div>
         <Link href="/" aria-label={siteMetadata.headerTitle}>
           <div className="flex items-center justify-between">
-            <div className="mr-3">
+            {/* <div className="mr-3">
               <Logo />
-            </div>
+            </div> */}
             {typeof siteMetadata.headerTitle === 'string' ? (
-              <div className="hidden h-6 text-2xl font-semibold sm:block">
-                {siteMetadata.headerTitle}
-              </div>
+              <div className="block h-6 font-semibold sm:text-2xl">{siteMetadata.headerTitle}</div>
             ) : (
               siteMetadata.headerTitle
             )}
@@ -37,8 +35,12 @@ const Header = () => {
               {link.title}
             </Link>
           ))}
-        <SearchButton />
-        <ThemeSwitch />
+        <span className="hidden sm:block">
+          <SearchButton />
+        </span>
+        <span className="hidden sm:block">
+          <ThemeSwitch />
+        </span>
         <MobileNav />
       </div>
     </header>

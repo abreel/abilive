@@ -3,6 +3,8 @@
 import { useState } from 'react'
 import Link from './Link'
 import headerNavLinks from '@/data/headerNavLinks'
+import ThemeSwitch from './ThemeSwitch'
+import SearchButton from './SearchButton'
 
 const MobileNav = () => {
   const [navShow, setNavShow] = useState(false)
@@ -68,6 +70,12 @@ const MobileNav = () => {
               </Link>
             </div>
           ))}
+          <div className="flex justify-around px-12 py-4">
+            <SearchButton />
+            <ThemeSwitch />
+          </div>
+          {/* <div className="px-12 py-4">
+          </div> */}
         </nav>
       </div>
     </>
