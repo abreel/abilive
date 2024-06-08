@@ -26,15 +26,10 @@ export default function Home({ posts }) {
               <li key={slug} className="py-12">
                 <article>
                   <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
-                    <dl>
-                      <dt className="sr-only">Published on</dt>
-                      <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-                        <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
-                      </dd>
-                    </dl>
                     <div className="space-y-5 xl:col-span-3">
-                      <div className="space-y-6">
-                        <div>
+                      <div className="relative space-y-6">
+                        <img src="https://cdn.loom.com/sessions/thumbnails/6e7d7af9e72c45c39a13fe4110bfe801-with-play.gif" />
+                        {/* <div className="absolute md:relative top-0 bottom-0 left-0 right-0 hidden hover:block bg:black/50">
                           <h2 className="text-2xl font-bold leading-8 tracking-tight">
                             <Link
                               href={`/blog/${slug}`}
@@ -48,10 +43,10 @@ export default function Home({ posts }) {
                               <Tag key={tag} text={tag} />
                             ))}
                           </div>
-                        </div>
-                        <div className="prose max-w-none text-gray-500 dark:text-gray-400">
+                        </div> */}
+                        {/* <div className="prose max-w-none text-gray-500 dark:text-gray-400">
                           {summary}
-                        </div>
+                        </div> */}
                       </div>
                       <div className="text-base font-medium leading-6">
                         <Link
