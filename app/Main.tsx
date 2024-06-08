@@ -28,7 +28,13 @@ export default function Home({ posts }) {
                   <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
                     <div className="space-y-5 xl:col-span-3">
                       <div className="relative space-y-6">
-                        <img src="https://cdn.loom.com/sessions/thumbnails/6e7d7af9e72c45c39a13fe4110bfe801-with-play.gif" />
+                        <Link
+                          href={`/blog/${slug}`}
+                          // className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                          // aria-label={`Read more: "${title}"`}
+                        >
+                          <img src="https://cdn.loom.com/sessions/thumbnails/6e7d7af9e72c45c39a13fe4110bfe801-with-play.gif" />
+                        </Link>
                         {/* <div className="absolute md:relative top-0 bottom-0 left-0 right-0 hidden hover:block bg:black/50">
                           <h2 className="text-2xl font-bold leading-8 tracking-tight">
                             <Link
@@ -49,13 +55,13 @@ export default function Home({ posts }) {
                         </div> */}
                       </div>
                       <div className="text-base font-medium leading-6">
-                        <Link
+                        {/* <Link
                           href={`/blog/${slug}`}
                           className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                           aria-label={`Read more: "${title}"`}
                         >
                           Read more &rarr;
-                        </Link>
+                        </Link> */}
                       </div>
                     </div>
                   </div>
