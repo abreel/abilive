@@ -43,7 +43,7 @@ const MobileNav = () => {
         }`}
       >
         <div className="mx-8 mt-11 flex items-center justify-between">
-          <div className="flex space-x-8 px-12 py-4">
+          <div className="flex items-center space-x-8">
             <SearchButton />
             <ThemeSwitch />
           </div>
