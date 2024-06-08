@@ -53,7 +53,7 @@ const ThemeSwitch = () => {
   useEffect(() => setMounted(true), [])
 
   return (
-    <div className="mr-5">
+    <div>
       <Menu as="div" className="relative inline-block text-left">
         <div>
           <Menu.Button>{resolvedTheme === 'dark' ? <Moon /> : <Sun />}</Menu.Button>
