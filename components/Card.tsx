@@ -41,7 +41,7 @@ const returnVideo = (title, description, imgSrc, href) =>
 
 const Card = ({ title, description, imgSrc, href, imgType }) => (
   <div className="">
-    <div className={`${imgSrc && 'h-full'} overflow-hidden rounded-md`}>
+    <div className={`${imgSrc && 'h-full'} overflow-hidden rounded-md shadow`}>
       {imgType === 'video'
         ? returnVideo(title, description, imgSrc, href)
         : returnImg(title, description, imgSrc, href)}
