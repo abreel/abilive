@@ -24,7 +24,7 @@ const Card = ({ title, description, imgSrc, href }) => (
             // height="100%"
           />
         ))}
-      <div className="p-6">
+      {/* <div className="p-6">
         <p className="mb-3 leading-8 tracking-tight">
           {href ? (
             <Link href={href} aria-label={`Link to ${title}`}>
@@ -34,7 +34,7 @@ const Card = ({ title, description, imgSrc, href }) => (
             title
           )}
         </p>
-        {/* <p className="prose mb-3 max-w-none text-justify text-gray-500 dark:text-gray-400">
+        <p className="prose mb-3 max-w-none text-justify text-gray-500 dark:text-gray-400">
           {description}
         </p>
         {href && (
@@ -45,8 +45,8 @@ const Card = ({ title, description, imgSrc, href }) => (
           >
             Learn more &rarr;
           </Link>
-        )} */}
-      </div>
+        )}
+      </div> */}
     </div>
   </div>
 )
