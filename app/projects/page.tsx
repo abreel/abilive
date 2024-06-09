@@ -14,7 +14,7 @@ export default function Projects() {
           </h1>
         </div>
         <div className="container py-12">
-          <div className="-m-4 columns-2 space-y-4 md:columns-3">
+          <div className="columns-2 space-y-4 md:columns-3">
             {projectsData.map((d) => (
               <Card
                 key={d.title}
@@ -22,6 +22,7 @@ export default function Projects() {
                 description={d.description}
                 imgSrc={d.imgSrc}
                 href={d.href}
+                imgType={d.imgType}
               />
             ))}
           </div>
