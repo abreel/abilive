@@ -1,5 +1,6 @@
 import Link from '@/components/Link'
 import Tag from '@/components/Tag'
+import { returnVideo, returnImg } from '@/components/utilities/returnImgOrVideo'
 import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
 import NewsletterForm from 'pliny/ui/NewsletterForm'
@@ -21,47 +22,19 @@ export default function Home({ posts }) {
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((post) => {
-            const { slug, date, title, summary, tags } = post
+            const { slug, date, title, summary, tags, previewSrc, previewType } = post
             return (
               <li key={slug} className="py-12">
                 <article>
                   <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
                     <div className="space-y-5 xl:col-span-3">
                       <div className="relative space-y-6">
-                        <Link
-                          href={`/blog/${slug}`}
-                          // className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                          // aria-label={`Read more: "${title}"`}
-                        >
+                        {previewType === 'video'
+                          ? returnVideo(title, previewSrc, `/blog/${slug}`)
+                          : returnImg(title, previewSrc, `/blog/${slug}`)}
+                        <Link href={`/blog/${slug}`}>
                           <img src="https://cdn.loom.com/sessions/thumbnails/6e7d7af9e72c45c39a13fe4110bfe801-with-play.gif" />
                         </Link>
-                        {/* <div className="absolute md:relative top-0 bottom-0 left-0 right-0 hidden hover:block bg:black/50">
-                          <h2 className="text-2xl font-bold leading-8 tracking-tight">
-                            <Link
-                              href={`/blog/${slug}`}
-                              className="text-gray-900 dark:text-gray-100"
-                            >
-                              {title}
-                            </Link>
-                          </h2>
-                          <div className="flex flex-wrap">
-                            {tags.map((tag) => (
-                              <Tag key={tag} text={tag} />
-                            ))}
-                          </div>
-                        </div> */}
-                        {/* <div className="prose max-w-none text-gray-500 dark:text-gray-400">
-                          {summary}
-                        </div> */}
-                      </div>
-                      <div className="text-base font-medium leading-6">
-                        {/* <Link
-                          href={`/blog/${slug}`}
-                          className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                          aria-label={`Read more: "${title}"`}
-                        >
-                          Read more &rarr;
-                        </Link> */}
                       </div>
                     </div>
                   </div>
